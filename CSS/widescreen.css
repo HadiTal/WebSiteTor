@@ -1,0 +1,384 @@
+/* ------First popop------------ */
+
+.pic {
+    flex: 1;
+    background-color: cornflowerblue;
+}
+
+.txt {
+    flex: 1;
+}
+
+.popop {
+    width: 90%;
+    height: 73%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* ------End popop------------ */
+
+
+/* ------First Nav------------ */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    align-content: space-between;
+    height: 160px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-link {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #475569;
+}
+
+.nav-item {
+    margin-left: 3rem;
+}
+
+.nav-logo {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #482ff7;
+    height: 4rem;
+    width: 12rem;
+}
+
+.logo {
+    display: flex;
+    width: 48%;
+    justify-content: center;
+}
+
+
+/* ------End Nav------------ */
+
+
+/* ------First PoaterWebSite------------ */
+
+.poster-website {
+    background: #333 url(../images/pposter_website.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.poster-website .text-titr-poster {
+    font-family: font-default;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.header-poster {
+    height: 50rem;
+}
+
+.poster-website .text-titr2-poster {
+    font-family: font-default;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+/* ------End PoaterWebSite------------ */
+
+
+/* ------First GalleryTors------------ */
+
+.top-offer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iteam-offer {
+    width: 30%;
+    align-self: top;
+    position: relative;
+}
+
+.iteam-offer .titr-offer {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+.iteam-offer .btn-order {
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+}
+
+.iteam-offer .btn-order .logo-shop {
+    width: 30%;
+    flex: 0.2;
+    padding: 5px;
+}
+
+.iteam-offer .btn-order .text-shop {
+    width: 30%;
+    flex: 1;
+    justify-content: space-around;
+    padding: 0.2em 0.5em;
+}
+
+
+/* ------End GalleryTors------------ */
+
+
+/*----------First icons------------------*/
+
+.icons1-11,
+.icons2-1,
+.icons3-1,
+.icons4-1,
+.icons5-1 {
+    width: 80%;
+}
+
+
+/*----------End icons------------------*/
+
+
+/*-----------First Video------------  */
+
+.video-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-contaiber {
+    width: 85%;
+    height: 25rem;
+    background-color: black;
+}
+
+.text-contauner-video {
+    width: 85%;
+}
+
+.video-contaiber,
+.text-contauner-video {
+    flex: 1;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.titr-video {
+    font-family: font-default;
+    padding: 1rem;
+    font-size: 150%;
+    text-align: center;
+}
+
+.paragraph-video {
+    font-family: font-default;
+    text-align: justify;
+    padding: 2rem;
+    line-height: 2rem;
+}
+
+
+/*-----------End Video------------  */
+
+
+/*-----------First Comment Users------------  */
+
+.comment-user {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*-----------End Comment Users------------  */
+
+
+/*-----------First foooter web site----------*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8em;
+    height: 25em;
+}
+
+footer .about-us {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+footer .tags {
+    display: none;
+}
+
+footer .logo-container {
+    width: 30%;
+}
+
+.p-about-us {
+    font-size: 0.7em;
+}
+
+
+/*-----------First foooter web site----------*/
+
+
+/*================Page2=======================*/
+
+
+/*-----------First search Box----------*/
+
+.frm-input {
+    width: 70%;
+}
+
+.btn-serach {
+    width: 18%;
+    padding: 0.5em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*-----------First search Box----------*/
+
+
+/*---------------First gallery tors------------*/
+
+.galleryTor-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.galleryTor-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.galleryTor-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.galleryTor-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.galleryTor-9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.galleryTor-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.galleryTor-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.galleryTor-7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.galleryTor-8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryPic1 {
+    height: 260px;
+}
+
+.galleryTor-9 {
+    display: flex;
+}
+
+.galleryPic2 {
+    height: 260px;
+}
+
+.galleryPic3 {
+    height: 260px;
+}
+
+.galleryPic4 {
+    height: 260px;
+}
+
+.galleryPic5 {
+    height: 260px;
+}
+
+.galleryPic6 {
+    height: 260px;
+}
+
+.galleryPic7 {
+    height: 260px;
+}
+
+.galleryPic8 {
+    height: 260px;
+}
+
+.galleryPic9 {
+    height: 260px;
+}
+
+.paragraphGallery {
+    display: flex;
+    width: 100%;
+    padding: 1.8em;
+}
+
+.gallary-tors {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-text {
+    width: 50%;
+}
+
+
+/*---------------End gallery tors------------*/

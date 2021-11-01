@@ -1,0 +1,918 @@
+body {
+    direction: rtl;
+}
+
+
+/* ------Font Css------------ */
+
+@font-face {
+    font-family: font-default;
+    src: url(../CSS/fonts/IRANSans_Light.eot), url(../CSS/fonts/IRANSans_Light.otf), url(../CSS/fonts/IRANSans_Light.svg), url(../CSS/fonts/IRANSans_Light.ttf), url(../CSS/fonts/IRANSans_Light.woff);
+}
+
+@font-face {
+    font-family: font-footer;
+    src: url(../CSS/fonts/font-nazok/IRANSans_UltraLight.eot), url(../CSS/fonts/font-nazok/IRANSans_UltraLight.otf), url(../CSS/fonts/IRANSans_Light.svg), url(../CSS/fonts/IRANSans_Light.ttf), url(../CSS/fonts/font-nazok/IRANSans_UltraLight.woff);
+}
+
+@font-face {
+    font-family: font-titr;
+    src: url(../css/fonts/font-titr/Anjoman-Medium.eot), url(../CSS/fonts/font-titr/Anjoman-Medium.otf), url(../CSS/fonts/font-titr/Anjoman-Medium.svg), url(../CSS/fonts/font-titr/Anjoman-Medium.ttf), url(../CSS/fonts/IRANSans_Light.woff);
+}
+
+
+/* ------font Css------------ */
+
+
+/* ------Utility Css------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ------Utility Css------------ */
+
+
+/*------First popop------------*/
+
+.popholder {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popop {
+    width: 70%;
+    height: 80%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pic {
+    flex: 1;
+    background-image: url('../images/pic_popop.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.txt {
+    flex: 1.1;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-holder {
+    display: flex;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.text-email {
+    width: 70%;
+    height: 30%;
+    padding: 0.5em;
+    outline: none;
+    font-family: font-default;
+}
+
+.btn-email {
+    background-color: #ffcc00;
+    color: #0033FF;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    outline: #ffcc00;
+    margin-top: 0.3em;
+    font-family: font-default;
+}
+
+.envelope {
+    color: #cc3300;
+    font-size: 2em;
+    position: absolute;
+    bottom: 63%;
+    right: 88%;
+}
+
+.tirt-popop {
+    padding: 0.5em;
+    font-family: font-default;
+    font-size: 1em;
+}
+
+.p-popop {
+    text-align: justify;
+    line-height: 2.5em;
+    font-family: font-default;
+    font-size: 0.8em;
+}
+
+
+/*------End popop------------*/
+
+
+/* ------First Nav------------ */
+
+header {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 1rem;
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 33px;
+    height: 3px;
+    margin: 6px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: font-default;
+    z-index: 2;
+}
+
+.nav-item {
+    margin-left: 3rem;
+}
+
+.nav-link {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #475569;
+}
+
+.nav-link:hover {
+    color: #482ff7;
+}
+
+.nav-logo {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #482ff7;
+    height: 4rem;
+    width: 12rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/* ------End Nav------------ */
+
+
+/* ------First PoaterWebSite------------ */
+
+.poster-website {
+    background: url(../images/pposter_website.png) no-repeat;
+    justify-content: center;
+    background-size: cover;
+    height: 50rem;
+}
+
+.poster-website .container-poster {
+    width: 70;
+}
+
+.header-poster {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.poster-website .text-titr-poster {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: font-default;
+}
+
+.poster-website .text-titr2-poster {
+    font-family: font-default;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+
+/* ------End posterWebSite------------ */
+
+
+/*------First gallery-tor--------------*/
+
+.top-offer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+}
+
+.iteam-offer {
+    width: 385px;
+    position: relative;
+    align-self: center;
+}
+
+.iteam-offer .pic-offer {
+    width: 100%;
+}
+
+.iteam-offer .titr-offer {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    padding: 10px 15px;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: font-titr;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.iteam-offer .btn-order {
+    background-color: #ff9000;
+    color: #fff;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    outline: none;
+    border: solid 1px #ff9000;
+    border-radius: 5px;
+    font-family: font-default;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.iteam-offer .btn-order .logo-shop {
+    background-color: red;
+    width: 50%;
+    flex: 0.5;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.iteam-offer .btn-order .text-shop {
+    width: 50%;
+    flex: 2;
+    justify-content: space-around;
+    padding: 0.5em 1em;
+}
+
+
+/*----------First icons------------------*/
+
+
+/*---------First passage------------------*/
+
+.titr1-passage {
+    font-size: 2em;
+    text-align: center;
+    padding: 2rem 0px 2rem 0px;
+    font-family: font-default;
+}
+
+.text-passage {
+    width: 100%;
+    margin: 0px auto 1rem;
+    padding: 2rem;
+    text-align: justify;
+    line-height: 35px;
+    font-family: font-default;
+    font-size: 0.9em;
+}
+
+
+/*---------End passage------------------*/
+
+.gallery-icons-tor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+}
+
+.icons1-11 {
+    background-image: url(../images/icons1.png);
+    width: 100%;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+}
+
+.icons2-1 {
+    background-image: url(../images/icons2l.png);
+    width: 100%;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+}
+
+.icons3-1 {
+    background-image: url(../images/icons3.png);
+    width: 100%;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.icons4-1 {
+    background-image: url(../images/icons4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 10rem;
+    background-position: center center;
+}
+
+.icons5-1 {
+    background-image: url(../images/icons5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 10rem;
+    background-position: center;
+}
+
+.titr-icons {
+    padding: 1rem;
+    font-size: 1em;
+    text-align: center;
+    font-family: font-default;
+}
+
+.text-icons {
+    padding: 01.5rem;
+    font-size: 0.8em;
+    text-align: justify;
+    font-family: font-default;
+}
+
+
+/*----------End icons------------------*/
+
+
+/*-----------First Video------------  */
+
+.video-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.video-contaiber {
+    width: 50%;
+    height: 25rem;
+}
+
+.text-contauner-video {
+    width: 50%;
+}
+
+.video-contaiber,
+.text-contauner-video {
+    flex: 1;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.titr-video {
+    font-family: font-default;
+    padding: 0.5em;
+    padding-right: 2em;
+    font-size: 1em;
+}
+
+.paragraph-video {
+    font-family: font-default;
+    text-align: justify;
+    padding: 2rem;
+    line-height: 2rem;
+}
+
+
+/*-----------End Video------------  */
+
+
+/*-----------Frst Comment Users------------  */
+
+.comment-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem;
+    width: 100%;
+}
+
+.user-1 {
+    background-image: url(../images/user1.png);
+    padding: 3.8rem;
+    border-radius: 50%;
+    border: solid 2px blue;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.user-2 {
+    background-image: url(../images/user--3.png);
+    padding: 3.8rem;
+    border-radius: 50%;
+    border: solid 2px blue;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Pragraph-user1,
+.Pragraph-user2 {
+    text-align: justify;
+    font-family: font-default;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+.container-text-users {
+    display: flex;
+    flex-direction: column;
+}
+
+.titr-user1,
+.titr-user2 {
+    padding: 0.5rem;
+    font-family: font-default;
+    border-bottom: solid 2px black;
+    width: 97%;
+}
+
+
+/*-----------End Comment Users------------  */
+
+
+/*-----------First foooter web site----------*/
+
+footer {
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    height: 18em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+}
+
+footer .about-us {
+    width: 40%;
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .tags .container-tor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .tags {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-right: 2rem;
+}
+
+footer .pic-customers {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .pic-customers p {
+    width: 80%;
+    font-family: font-footer;
+    font-size: 0.7em;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+footer .logo-container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer .logo-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-about-us {
+    text-align: justify;
+    font-family: font-footer;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.titr-about {
+    font-family: font-footer;
+    line-height: 0.9em;
+    margin-bottom: 0.8em;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.logo-footer {
+    width: 90%;
+    display: flex;
+}
+
+.customer-1,
+.customer-2,
+.customer-3 {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.container-user1,
+.container-user2,
+.container-user3 {
+    display: flex;
+    flex-direction: row;
+    padding: 0.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tags span {
+    width: 30%;
+    height: 2.3rem;
+    background-color: #999999;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.3rem;
+    font-family: font-footer;
+    font-size: 0.9em;
+    color: black;
+    margin: 0.2em;
+    font-size: 0.8em;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.bottom-fotter {
+    height: 2rem;
+    background-color: black;
+}
+
+
+/*-----------End foooter web site----------*/
+
+
+/*================Page2======================*/
+
+
+/*---------------First Poster2------------*/
+
+.poster-tor-secendPage {
+    background-image: url(../images/Untitled-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center center;
+}
+
+.titr-poster-2 {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    font-family: font-default;
+    padding: 5%;
+}
+
+
+/*---------------End Poster2------------*/
+
+
+/*---------------First Box Serach------------*/
+
+.container-search {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.names-tors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    font-family: font-default;
+}
+
+.frm-input {
+    width: 80%;
+}
+
+.name-tors {
+    font-family: font-default;
+    padding: 1.3em;
+}
+
+.search-input {
+    width: 70%;
+    padding: 0.5em;
+    outline: none;
+    font-family: font-default;
+}
+
+.btn-serach {
+    width: 10%;
+    padding: 0.5em;
+}
+
+.btn-serach {
+    background-color: #3333ff;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    font-family: font-default;
+}
+
+
+/*---------------End Box Serach------------*/
+
+
+/*---------------First gallery tors------------*/
+
+.gallary-tors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallary-tors div {
+    margin: 0.5em;
+}
+
+.galleryPic1 {
+    background-image: url(../images/pic1-tors.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 320px;
+    background-color: red;
+    border-radius: 1%;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s;
+    filter: grayscale(50%);
+    cursor: pointer;
+}
+
+.galleryPic1:hover {
+    filter: grayscale(0%);
+}
+
+.galleryPic2 {
+    background-image: url(../images/pic2-tors.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 320px;
+    background-color: red;
+    border-radius: 1%;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.galleryPic3 {
+    background-image: url(../images/pic3-tors.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 320px;
+    background-color: red;
+    border-radius: 1%;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s;
+}
+
+.galleryPic4 {
+    background-image: url(../images/pic4-tors.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 320px;
+    background-color: red;
+    border-radius: 1%;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.galleryPic5 {
+    background-image: url(../images/pic5-tors.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 320px;
+    background-color: red;
+    border-radius: 1%;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.galleryPic6 {
+    background-image: url(../images/pic6-tors.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 320px;
+    background-color: red;
+    border-radius: 1%;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.galleryPic7 {
+    background-image: url(../images/pic7-tors.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 320px;
+    background-color: red;
+    border-radius: 1%;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.galleryPic8 {
+    background-image: url(../images/pic8-tors.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 320px;
+    background-color: red;
+    border-radius: 1%;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.galleryPic9 {
+    background-image: url(../images/pic9-tors.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 320px;
+    background-color: red;
+    border-radius: 1%;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.titrGallery {
+    font-family: font-default;
+    font-size: 1em;
+    padding: 0.2em;
+}
+
+.paragraphGallery {
+    text-align: justify;
+    font-family: font-default;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+.paragraphGallery {
+    width: 319px;
+}
+
+.btn-tor {
+    background-color: #99cc99;
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: font-default;
+    position: absolute;
+    top: 80%;
+    right: 63%;
+    cursor: pointer;
+}
+
+.iteam_offer_cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+.iteam-offer:hover>.iteam_offer_cover {
+    background-color: transparent;
+}
+
+.container-user {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    width: 100%;
+    height: 50%;
+}
+
+
+/*---------------End gallery tors------------*/
+
+
+/*================Page2======================*/
