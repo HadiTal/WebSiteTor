@@ -515,110 +515,38 @@ footer {
     width: 100%;
     background-color: #333333;
     display: flex;
-    height: 18em;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: #cccccc;
+    color: #fff;
 }
 
-footer .about-us {
-    width: 40%;
+.section-about-us {
+    flex: 1.5;
     height: 100%;
-    padding: 1.5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 1em;
 }
 
-footer .tags .container-tor {
+.section_hashtag {
+    flex: 1.5;
+    height: 100%;
     display: flex;
+    flex-direction: column;
+}
+
+.container_hashtag {
     flex-wrap: wrap;
-}
-
-footer .tags {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    padding-right: 2rem;
-}
-
-footer .pic-customers {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .pic-customers p {
-    width: 80%;
-    font-family: font-footer;
-    font-size: 0.7em;
-    font-weight: normal;
-    text-align: justify;
-    line-height: 1.3rem;
-}
-
-footer .logo-container {
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-footer .logo-container div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-}
-
-.p-about-us {
-    text-align: justify;
-    font-family: font-footer;
-    line-height: 1.5rem;
-    font-size: 0.8rem;
-}
-
-.titr-about {
-    font-family: font-footer;
-    line-height: 0.9em;
-    margin-bottom: 0.8em;
-    font-size: 1em;
-    font-weight: bolder;
-}
-
-.logo-footer {
-    width: 90%;
-    display: flex;
-}
-
-.customer-1,
-.customer-2,
-.customer-3 {
-    width: 20%;
-    height: 20%;
-    border-radius: 50%;
-    padding: 0.5rem;
-}
-
-.container-user1,
-.container-user2,
-.container-user3 {
-    display: flex;
-    flex-direction: row;
-    padding: 0.2rem;
     justify-content: center;
-    align-items: center;
+    background-color: #333333;
 }
 
-.tags span {
-    width: 30%;
-    height: 2.3rem;
+.section_hashtag span {
+    width: 45%;
+    height: 15%;
     background-color: #999999;
     display: inline-block;
     text-align: center;
@@ -626,25 +554,25 @@ footer .logo-container div {
     font-family: font-footer;
     font-size: 0.9em;
     color: black;
-    margin: 0.2em;
     font-size: 0.8em;
     cursor: pointer;
     border-radius: 0.5rem;
+    margin: 1%;
 }
 
-.bottom-fotter {
-    height: 2rem;
-    background-color: black;
+.p-about-us {
+    text-align: justify;
+    font-size: 0.7em;
+    line-height: 3.5EM;
+    font-family: font-footer;
 }
 
-
-/*-----------End foooter web site----------*/
-
-
-/*================Page2======================*/
-
-
-/*---------------First Poster2------------*/
+.titr-about {
+    font-size: 0.8em;
+    line-height: 3em;
+    font-family: font-footer;
+    font-weight: bolder;
+}
 
 .poster-tor-secendPage {
     background-image: url(../images/Untitled-2.png);
@@ -661,6 +589,69 @@ footer .logo-container div {
     font-family: font-default;
     padding: 5%;
 }
+
+.customer-1,
+.customer-2,
+.customer-3 {
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 0.5 rem;
+}
+
+.container-user1,
+.container-user2,
+.container-user3 {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .section_users {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: space-around;
+}
+
+footer .section_users p {
+    width: 80%;
+    font-family: font-footer;
+    font-size: 0.7em;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+footer .section_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    flex: 1;
+}
+
+.logo-footer {
+    width: 100%;
+    height: 90%;
+}
+
+.black-footer {
+    background-color: black;
+    height: 5vh;
+}
+
+
+/*-----------End foooter web site----------*/
+
+
+/*================Page2======================*/
+
+
+/*---------------First Poster2------------*/
 
 
 /*---------------End Poster2------------*/

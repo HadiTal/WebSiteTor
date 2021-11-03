@@ -219,26 +219,73 @@ footer {
     display: flex;
     flex-direction: row;
     font-size: 0.8em;
-    height: 25em;
-}
-
-footer .about-us {
-    width: 40%;
-    display: flex;
     flex-direction: column;
-    font-size: 1em;
-}
-
-footer .tags {
-    display: none;
-}
-
-footer .logo-container {
-    width: 30%;
+    color: #fff;
 }
 
 .p-about-us {
-    font-size: 0.7em;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 2em;
+    font-family: font-footer;
+}
+
+.titr-about {
+    font-size: 1.2em;
+}
+
+.section_hashtag {
+    flex: 1.5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-hashtag {
+    margin-top: 1%;
+    font-size: 1.1em;
+    line-height: 3em;
+    font-family: font-footer;
+    font-weight: bolder;
+    margin-right: 0;
+    margin-right: 2.5%;
+}
+
+.section_hashtag {
+    flex: 1.5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+.section_users {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .section_users p {
+    width: 90%;
+    font-family: font-footer;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.container-user1,
+.container-user2,
+.container-user3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-1,
+.customer-2,
+.customer-3 {
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 

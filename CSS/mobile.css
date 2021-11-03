@@ -308,55 +308,20 @@
 /*-----------First foooter web site----------*/
 
 footer {
-    display: flex;
     width: 100%;
-    flex-direction: column;
-    height: 122em;
-}
-
-footer .about-us {
-    width: 100%;
-    padding: 2rem;
+    background-color: #333333;
     display: flex;
     flex-direction: column;
+    color: #cccccc;
 }
 
-.tags {
-    display: flex;
-    flex-direction: column;
-}
-
-footer .tags {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-footer .pic-customers {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .pic-customers p {
-    width: 100%;
+footer .section_users p {
+    width: 90%;
     font-family: font-footer;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: normal;
     text-align: justify;
-    line-height: 1.3rem;
-    padding: 1rem;
-}
-
-.customer-1,
-.customer-2,
-.customer-3 {
-    width: 8em;
-    height: 8em;
-    border-radius: 50%;
-    padding: 0.5rem;
+    line-height: 2rem;
 }
 
 .container-user1,
@@ -364,13 +329,14 @@ footer .pic-customers p {
 .container-user3 {
     display: flex;
     flex-direction: column;
-    padding: 0.1rem;
-    justify-content: center;
-    align-items: center;
 }
 
-footer .logo-container {
-    width: 50%;
+.customer-1,
+.customer-2,
+.customer-3 {
+    width: 40%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 
